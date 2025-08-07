@@ -1,0 +1,28 @@
+# Virtual environments
+muscle_seg/
+venv/
+env/
+.env/
+
+# Model files
+*.pth
+*.ckpt
+*.h5
+*.pkl
+
+# nnU-Net outputs
+nnUNetTrainer*/
+nnUNet_*/
+
+# Data files
+*.nii.gz
+*.dcm
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Output directories
+outputResults/
+results/
